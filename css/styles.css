@@ -24,7 +24,13 @@ p {
 	background-color: transparent;
 	border-color: #00ced1;
 	border-style: solid;
-
+	cursor: auto;
+}
+.button-heading:hover{
+	cursor: auto;
+	background-color: transparent !important;
+	border-color: #00ced1 !important;
+	border-style: solid !important;
 }
 #title {
 	text-align: left;
@@ -119,7 +125,7 @@ p {
 	position: relative;
 }
 .button {
-	width: 150px;
+  width: 150px;
   background-color: #00ced1;
   border: none;
   color: black;
@@ -130,6 +136,12 @@ p {
   font-size: 16px;
   margin: 4px 4px;
   border-radius: 14px;
+  cursor: auto;
+}
+.button:hover{
+	cursor: auto;
+	background-color: #00ced1;
+  	color: black;
 }
 /*about section*/
 #about {
@@ -230,9 +242,9 @@ p {
   float: right;
 }
 
-button:hover {
+/* button:hover {
   opacity: 0.8;
-}
+} */
 
 /* Extra styles for the cancel button */
 .cancelbtn {
