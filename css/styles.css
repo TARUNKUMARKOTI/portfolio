@@ -52,9 +52,8 @@ p {
 	padding: 0 0 4.5rem;
 }
 .navbar-brand {
-	font-family: Ubuntu;
+	font-family: Montserrat-Regular;
 	font-size: 3rem;
-	font-weight: bold;
 }
 .nav-item {
 	padding: 0 18px;
@@ -137,11 +136,13 @@ p {
   margin: 4px 4px;
   border-radius: 14px;
   cursor: auto;
+  background-color:#80e8ff;
 }
 .button:hover{
 	cursor: auto;
 	background-color: #00ced1;
   	color: black;
+	  background-color: #80e8ff;
 }
 /*about section*/
 #about {
@@ -175,9 +176,15 @@ p {
   	display: inline-block;
   	height: 200px;
   	width: 200px;
-  	border: 10px solid darkcyan;
+  	border: 5px solid darkcyan;
+	border: 5px solid #00bbe6;
   	border-radius: 20%;
+	transition: transform 0.2s;
 
+}
+.pro-images:hover {
+	cursor: pointer;
+	transform: scale(1.08);
 }
 /*Call to action section*/
 .contact-icon {
@@ -224,6 +231,7 @@ p {
 	color: #00ced1;
 	padding: 3% 1.5% 1%;
 }
+
 
 
 /*popup window*/
