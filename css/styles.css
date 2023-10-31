@@ -353,3 +353,92 @@ span.psw {
      width: 100%;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+    .modal-content{
+        width: 95% !important;
+    }
+    #modal_heading{
+        padding-top: 30px !important;
+    }
+    .popup-text{
+        padding: 0px !important;
+    }
+    .container{
+        padding: 0px !important;
+    }
+    .imgcontainer{
+        margin-bottom: 0px !important;
+        width: 100% !important;
+    }
+}
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .big-heading {
+        font-size: 2.1rem;
+    }
+	.navbar {
+		padding: 0 0 2.5rem;
+	}
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .feature-heading {
+        font-size: 1.6rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.3rem;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .cta-heading {
+        font-size: 1.3rem;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+
+    .contact-name {
+        font-size: 16px;
+    }
+
+    #footer-name {
+        font-size: 16px;
+    }
+	p {
+		font-size: 16px;
+		padding: 2% 0% 0%;
+	}
+	.fa-2x {
+		font-size: 1.2em;
+	}
+	.contact-icon {
+		padding: 4% 2% 4% 4%;
+	}
+	.footer-icon {
+		padding: 3%;
+	}
+	.fa-4x {
+		font-size: 3.4em;
+	}
+	.icon {
+		margin: 1rem 1rem 0.5rem;
+	}
+	.feature-p{
+		padding: 0%;
+	}
+}
