@@ -207,6 +207,8 @@ p {
 	padding-bottom: 2%;
 }
 .contact-name {
+	text-decoration: none;
+	color: #00ced1;
 	font-size: 20px;
 }
 
