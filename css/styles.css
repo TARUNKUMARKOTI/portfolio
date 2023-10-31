@@ -49,8 +49,10 @@ p {
 }
 /*Navigation bar*/
 .navbar {
-	padding: 0 0 4.5rem;
+	padding: 0% 15% 0%;
+	border-bottom: 1px solid #80e8ff;
 }
+
 .navbar-brand {
 	font-family: Montserrat-Regular;
 	font-size: 3rem;
@@ -62,7 +64,9 @@ p {
 	font-size: 1.7rem;
 	font-family: Montserrat-Regular;
 }
-
+.pd-top-100{
+	padding-top: 100px;
+}
 
 /*Download buttons*/
 .download-button {
@@ -125,7 +129,6 @@ p {
 }
 .button {
   width: 150px;
-  background-color: #00ced1;
   border: none;
   color: black;
   padding: 20px;
@@ -140,9 +143,8 @@ p {
 }
 .button:hover{
 	cursor: auto;
-	background-color: #00ced1;
   	color: black;
-	  background-color: #80e8ff;
+	background-color: #80e8ff;
 }
 /*about section*/
 #about {
@@ -381,16 +383,20 @@ span.psw {
         font-size: 2.1rem;
     }
 	.navbar {
-		padding: 0 0 2.5rem;
+		padding: 0;
 	}
 
     .navbar-brand {
         font-size: 2rem;
+		padding-left: 20px;
     }
 
     .nav-link {
         font-size: 1.3rem;
     }
+	.navbar-toggler{
+		margin-right: 20px;
+	}
 
     .feature-heading {
         font-size: 1.6rem;
