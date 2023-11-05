@@ -386,11 +386,13 @@ span.psw {
     }
 
     .button {
-        font-size: 14px;
+        font-size: 16px;
+		width: 100px;
+		padding: 10px 12px;
     }
 
     .cta-heading {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .contact-heading {
@@ -428,6 +430,12 @@ span.psw {
 	}
 	.feature-p{
 		padding: 0%;
+	}
+	#skills .row>*{
+		width: 50%;
+	}
+	.pro-images{
+		margin: 10px;
 	}
 }
 
